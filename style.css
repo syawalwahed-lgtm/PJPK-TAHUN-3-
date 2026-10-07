@@ -1,0 +1,23 @@
+*{box-sizing:border-box}
+body{margin:0;font-family:Arial,sans-serif;background:#eef7ff;color:#18324a;line-height:1.6}
+.hero{padding:45px 20px;text-align:center;background:linear-gradient(135deg,#1464a5,#43b5a0);color:white}
+.badge{display:inline-block;padding:6px 14px;border-radius:20px;background:rgba(255,255,255,.2);font-weight:bold}
+h1{font-size:clamp(2.2rem,6vw,4rem);margin:10px 0 0}
+.teacher{font-weight:bold}
+main{max-width:900px;margin:25px auto;padding:0 15px}
+.card{background:white;border-radius:20px;padding:24px;margin:18px 0;box-shadow:0 7px 20px rgba(0,0,0,.08)}
+.card h2{margin-top:0;color:#1464a5}
+.tips{display:grid;grid-template-columns:repeat(auto-fit,minmax(190px,1fr));gap:12px}
+.tips div{background:#f0f8ff;border-radius:14px;padding:16px;text-align:center}
+button{border:0;border-radius:12px;padding:13px 20px;font-size:1rem;font-weight:bold;cursor:pointer}
+.primary{background:#1464a5;color:white}
+.primary:hover{opacity:.9}
+.question{padding:18px 0;border-bottom:1px solid #ddd}
+.option{display:block;width:100%;text-align:left;margin:8px 0;background:#f5f8fa}
+.option.selected{outline:3px solid #43b5a0}
+.option.correct{background:#c9f7d7}
+.option.wrong{background:#ffd1d1}
+.submit{margin-top:20px;background:#f29f05;color:white}
+.result{margin-top:20px;padding:20px;border-radius:15px;background:#e8f8ef;font-size:1.15rem}
+.hidden{display:none}
+footer{text-align:center;padding:25px;background:#173c56;color:white;margin-top:35px}
